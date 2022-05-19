@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main (void) {
-  printf("Hello World");
+  printf("%f", 3.14*3*3);
   return 0;
 }
