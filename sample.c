@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-int main (void){
-  printf("%f", 3.14*3*3);
+int main (void) {
+  int value;
+  value = 10;
+  printf("%d", value);
   return 0;
 }
