@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main (void) {
-  int apple = 8;
-  if (apple != 10) printf("りんごの数は10個ではありません");
+  int number;
+  scanf("%d", &number);
+  if (number < 10) printf("10未満です");
+  if (number > 10) printf("10より大きいです");
+  if (number == 10) printf("10と同じです");
   return 0;
 }
