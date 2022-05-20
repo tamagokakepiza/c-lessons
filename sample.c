@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main (void) {
-  double number;
-  scanf("%lf", &number);
-  printf("入力された値は %lf です", number);
+  int apple = 10;
+  if (apple-10) printf("りんごの数は0個ではありません");
   return 0;
 }
