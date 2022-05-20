@@ -3,8 +3,7 @@
 int main (void) {
   int number;
   scanf("%d", &number);
-  if (number < 10) printf("10未満です");
-  if (number > 10) printf("10より大きいです");
-  if (number == 10) printf("10と同じです");
+  if (number >= 5 && number <= 10)printf("5~10の間です");
+  if (number < 5 || number > 10)printf("5~10の間ではありません");
   return 0;
 }
