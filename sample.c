@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main (void) {
-  printf("%d", (int) (3.14*3*3));
+  double number;
+  scanf("%lf", &number);
+  printf("入力された値は %lf です", number);
   return 0;
 }
