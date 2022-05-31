@@ -1,11 +1,11 @@
 #include <stdio.h>
-int calculate (int money);
+int fruits(int apple, int orange);
 int main (void) {
-  calculate(1000);
+  fruits(5, 6);
   return 0;
 }
 
-int calculate (int money){
-  printf("%f", money * 1.1);
+int fruits(int apple, int orange){
+  printf("%d", (apple*300)+(orange*200));
   return 0;
 }
