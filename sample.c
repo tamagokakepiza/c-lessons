@@ -1,11 +1,11 @@
 #include <stdio.h>
-int thankyou(void);
+int calculate (int money);
 int main (void) {
-  thankyou();
+  calculate(1000);
   return 0;
 }
 
-int thankyou (void) {
-  printf("ありがとう");
+int calculate (int money){
+  printf("%f", money * 1.1);
   return 0;
 }
