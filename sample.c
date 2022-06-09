@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main (void) {
-  char c = 'A';
-  printf("%c", c);
+  char str [5] = {'J','O','H','N','\0'};
+  printf("%s", str);
   return 0;
 }
