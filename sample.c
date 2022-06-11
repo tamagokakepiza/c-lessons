@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
 
 int main (void) {
-  char str [] = "2.56";
-  double number = atof (str);
-  printf("%f", number);
+  char str [10];
+  strcpy(str, "MIKE");
+  printf("%s", str);
   return 0;
 }
