@@ -2,10 +2,10 @@
 #include <string.h>
 
 int main (void) {
-  char str[256];
-  scanf("%s", str);
-  int i;
-  i = strlen(str);
-  printf("%d", i);
+  int apple = 10;
+  int *hoge;
+  hoge = &apple;
+  printf("%d\n", apple);
+  printf("%d\n", *hoge);
   return 0;
 }
